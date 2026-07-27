@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2.0,
+  "id": "grafana-dashboards",
+  "name": "Grafana Dashboards",
+  "version": "2.0.0",
+  "author": "Vrishab Rayu",
+  "namespace": "GrafanaDashboards",
+  "description": "Embed Grafana dashboards directly inside Zabbix.",
+  "actions": {
+    "grafana.list": {
+      "class": "ActionGrafanaList",
+      "view": "grafana.list",
+      "layout": "layout.htmlpage"
+    },
+    "grafana.edit": {
+      "class": "ActionGrafanaEdit",
+      "view": "grafana.edit",
+      "layout": "layout.htmlpage"
+    },
+    "grafana.delete": {
+      "class": "ActionGrafanaDelete",
+      "layout": "layout.htmlpage"
+    },
+    "grafana.view": {
+      "class": "ActionGrafanaView",
+      "view": "grafana.view",
+      "layout": "layout.htmlpage"
+    }
+  }
+}
