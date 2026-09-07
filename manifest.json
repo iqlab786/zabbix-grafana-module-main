@@ -3,7 +3,7 @@
   "id": "grafana-dashboards",
   "name": "Grafana Dashboards",
   "version": "2.0.0",
-  "author": "Vrishab Rayu",
+  "author": "Identiqa Labs",
   "namespace": "GrafanaDashboards",
   "description": "Embed Grafana dashboards directly inside Zabbix.",
   "actions": {
